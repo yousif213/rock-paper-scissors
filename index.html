@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+ 
+
+<div class="sitings">
+    <i class="fa-solid fa-bars menu"></i>
+    <div class="small" id="small">
+        <span id="theme">theme</span> 
+        <span><input type="color" class="col" id="col" /></span>  
+        <hr>
+        <span id="unmuteBtn">audio</span>
+        <hr>
+        <span class="me">about us</span>
+    </div>
+</div>
+  
+    <section class="containers ">
+       <div class="result-field">
+           <div class="result-images">
+               <span class="user-result">
+                   <img src="images/rock.png" alt="rock">
+               </span>
+               <span class="cpu-result">
+                   <img src="images/rock.png" alt="rock">
+               </span>
+           </div>
+           
+           <div class="result">let's play</div>
+       </div>
+  
+       <div class="opition-images">
+           <span class="option-image">
+               <img src="images/rock.png" alt="rock">
+               <p>Rock</p>
+           </span>
+       
+      
+        <span class="option-image">
+            <img src="images/paper.png" alt="paper">
+            <p>paper</p>
+        </span>
+   
+
+        <span class="option-image">
+            <img src="images/scissors.png" alt="scissors">
+            <p>scissors</p>
+        </span>
+    </div>
+
+   </section>
+    
+<audio src="EyesInTheVoid-chosic.com_.mp3" preload="auto" id="bgAudio"></audio>
+    <script src="main.js"></script>
+    <script src="logic.js"></script>
+</body>
+</html>
