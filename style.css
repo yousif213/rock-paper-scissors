@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "open Sans",sans-serif;
-    color: wheat;
+    color: white;
 }
 :root{
     --main-color:crimson;
@@ -166,3 +166,4 @@ hr{
     display: none;
 
 }
+
